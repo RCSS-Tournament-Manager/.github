@@ -5,10 +5,18 @@ If you want to know more about how this project works, you can read the [project
 ## Project Parts
 The project is divided to the following parts:
 
-- **Manager Frontend** - `manager-frontend` - A web application that provides a user interface for managing tournaments.
+- **Manager Frontend** - `manager-frontend`
 
-- **Manager Backend** - `manager-backend` - A RESTful API that provides the backend for the manager frontend, all the logic for managing tournaments is implemented here.
+   A web application that provides a user interface for managing tournaments.
 
-- **Game Runner** - `runner` - A program that runs the games and sends the results to the manager backend.
+- **Manager Backend** - `manager-backend`
 
-- **Team builder** - `team-builder` - A service that build docker images for teams based on the team's binary code and sends them to docker registry.
+  A RESTful API that provides the backend for the manager frontend, all the logic for managing tournaments is implemented here.
+
+- **Game Runner** - `runner`
+
+  The program that runs the games and sends the results to the manager backend.
+
+- **Team builder** - `team-builder`
+
+  Service that build docker images for teams based on the team's binary code and sends them to docker registry.
