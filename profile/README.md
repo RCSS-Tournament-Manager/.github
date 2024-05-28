@@ -17,6 +17,6 @@ The project is divided to the following parts:
 
   The program that runs the games and sends the results to the manager backend.
 
-- **Team builder** - `team-builder`
+- **Team builder** - [`team-builder`](https://github.com/RCSS-Tournament-Manager/team-builder)
 
   Service that build docker images for teams based on the team's binary code and sends them to docker registry.
