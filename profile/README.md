@@ -9,7 +9,7 @@ The project is divided to the following parts:
 
    A web application that provides a user interface for managing tournaments.
 
-- **Manager Backend** - `manager-backend`
+- **Manager Backend** - [`manager-backend`](https://github.com/RCSS-Tournament-Manager/manager-backend)
 
   A RESTful API that provides the backend for the manager frontend, all the logic for managing tournaments is implemented here.
 
