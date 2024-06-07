@@ -13,7 +13,7 @@ The project is divided to the following parts:
 
   A RESTful API that provides the backend for the manager frontend, all the logic for managing tournaments is implemented here.
 
-- **Game Runner** - `runner`
+- **Game Runner** - [`runner`](https://github.com/RCSS-Tournament-Manager/runner)
 
   The program that runs the games and sends the results to the manager backend.
 
